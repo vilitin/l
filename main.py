@@ -31,7 +31,7 @@ def inlinequery(bot, update):
     results = list()
 
     # search and trim result to 50, which is max result count for inline query answer
-    audios = search(query)[:50]; 
+    audios = search(query)[:20]; 
     try:
         if audios:
             for audio in audios:
